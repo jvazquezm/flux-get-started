@@ -47,8 +47,6 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Versión 1"
-        - name: IMAGEN DOCKER
           value: "Versión 2"
         livenessProbe:
           httpGet:
