@@ -47,7 +47,9 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "cambio de versión prros2"
+          value: "Actualización de versión"
+        - name: PODINFO_UI_MESSAGE2
+          value: "Actualización de variable 2"
         livenessProbe:
           httpGet:
             path: /healthz
