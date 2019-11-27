@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mi-historial-services
-        image: resuelve/mi-historial-services:build-46-master
+        image: resuelve/mi-historial-services:build-47-master
         ports:
         - containerPort: 80
         env:
