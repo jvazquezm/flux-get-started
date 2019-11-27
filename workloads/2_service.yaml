@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mi-historial-services
+  namespace: default
+spec:
+  selector:
+    app: mi-historial-services
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 80
