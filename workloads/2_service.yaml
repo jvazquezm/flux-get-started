@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mi-historial-services
-  namespace: default
+  namespace: flux
 spec:
   selector:
     app: mi-historial-services
