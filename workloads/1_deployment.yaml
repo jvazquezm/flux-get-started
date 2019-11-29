@@ -29,7 +29,7 @@ spec:
         - name: CC_URL
           value: https://mi-historial-services.sandbox.resuelve.io"    
         - name: CC_hola
-          value: "prueba"" 
+          value: "prueba"
      imagePullSecrets:
       - name: reg-cred
       nodeSelector:
