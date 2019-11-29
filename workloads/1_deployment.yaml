@@ -29,6 +29,6 @@ spec:
         - name: CC_URL
           value: "https://mi-historial-services.sandbox.resuelve.io"    
       imagePullSecrets:
-      - name: reg-cred
+      - name: regcred
       nodeSelector:
         cloud.google.com/gke-nodepool: "ingress-nginx"
