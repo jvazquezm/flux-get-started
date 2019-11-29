@@ -27,7 +27,7 @@ spec:
         - name: API_URL
           value: "https://mi-historial-services.sandbox.resuelve.io"
         - name: CC_URL
-          value: https://mi-historial-services.sandbox.resuelve.io"    
+          value: "https://mi-historial-services.sandbox.resuelve.io"    
       imagePullSecrets:
       - name: reg-cred
       nodeSelector:
