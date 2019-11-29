@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: mi-historial-services
-  namespace: fluk
+  namespace: demo
   labels:
     app: mi-historial-services
 spec:
